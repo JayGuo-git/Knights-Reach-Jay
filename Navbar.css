@@ -1,0 +1,29 @@
+﻿.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 15px 30px;
+}
+
+.nav-left,
+.nav-right {
+    display: flex;
+    gap: 20px;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-left: 120px;
+    z-index: 1;
+    /*pointer-events: none; /* prevents overlap issues */
+
+}
+
+.gold {
+    color: #FFD700;
+}
